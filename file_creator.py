@@ -19,7 +19,7 @@ def check_file(file):
   if result == None
     raise TypeError('File must be a python file')
   return result[0]
-def join(directorio, file)
+def join(directorio, file):
   if os.path.exists(file) == False:
     os.path.join(directorio,file)
     with open(file, 'w') as file1:
